@@ -324,7 +324,7 @@ const Home = props =>{
 
         <div className='vertical_separator'></div>
 
-        <div className='heading_section'>
+        <div className='heading_section twogrid_head'>
           <div className='title_text'>
             <h1>The team</h1>
           </div>
@@ -465,7 +465,7 @@ const Home = props =>{
 
         <div className='all_blog_wrapper'>
           <div className='vertical_separator all_blog'></div>
-          <div className='heading_section'>
+          <div className='heading_section twogrid_head'>
             <div className='title_text'>
               <h1>From the blog</h1>
             </div>

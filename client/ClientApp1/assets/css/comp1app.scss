@@ -663,7 +663,7 @@ html{font-size:10px;}
       grid-template-columns: 1fr;
     }
     .lulu_page_content .home .fun_wrapper .fun_facts_wrapper{
-      grid-template-columns: 1fr
+      grid-template-columns: 1fr 1fr;
     }
     .lulu_page_content .home .testimonials_wrapper .testimonial_all_wrapper{
           grid-template-columns: 1fr
@@ -681,6 +681,21 @@ html{font-size:10px;}
     .lulu_page_content .home .banner .banner_content .banner_big_title h2{
       font-size: 2rem;
     }
+    .lulu_page_content .home .banner .banner_content{
+      position: absolute;
+    top: 20%;
+    left: 10%;
+    }
+
+    .lulu_page_content .home .banner{height:500px;}
+    .lulu_page_content .home .side_banner_overlay{height:650px;}
+    .lulu_page_content .home .heading_section{flex-direction: column;align-items: flex-start;
+      &.twogrid_head{
+        grid-template-columns: 1fr 1fr;flex-direction: row;
+      }
+    }
+    .skills_wrapper .skills_imagebox .skill_image img{width:400px}
+    .lulu_page_content .home .fun_wrapper .fun_facts_wrapper .fun_items{padding:20px}
   }
 
 
