@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const App = props => {
-  return (
-    <div>Hello Mern App - Front End React</div>
-  )
-}
+import {App} from './ClientApp1/components/App';
 
 const ele = document.getElementById('app');
 

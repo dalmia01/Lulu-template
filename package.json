@@ -12,8 +12,7 @@
     "concurrently": "concurrently \"npm run start:dev\" \"npm run server\""
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dalmia01/mern-boilerplate.git"
+    "type": "git"
   },
   "author": "'dalmia01@gmail.com'",
   "license": "ISC",
@@ -24,7 +23,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-slick": "^0.26.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
